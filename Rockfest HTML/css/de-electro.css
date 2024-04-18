@@ -73,7 +73,7 @@ header.smaller,
 .dark-scheme section,
 .de_tab.tab_style_4 .de_nav.de_nav_dark li,
 body::-webkit-scrollbar-track{
-    background: #061347;
+    background: #FFFFFF;
 }
 
 .pricing-s1:hover .mid{
@@ -125,7 +125,7 @@ body::-webkit-scrollbar-track{
 }
 
 .pricing-s1 .m, .pricing-s1 span{
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .title-box-inner h2{
