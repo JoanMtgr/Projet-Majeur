@@ -43,7 +43,7 @@
                                 <div class="de-flex-col">
                                     <!-- logo begin -->
                                     <div id="logo">
-                                        <a href="03_electrofest-index.html">
+                                        <a href="index.html">
                                             <img alt="" src="images-electro/logo.png" />
                                         </a>
                                     </div>
@@ -55,30 +55,25 @@
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainmenu begin -->
                                 <ul id="mainmenu">
-                                    <li><a href="03_electrofest-index.html">Home</a>
+                                    <li><a href="index.html">Accueil</a></li>                                   
+                                    <li><a href="#section-artists">Artistes</a></li>                  
+                                    <li><a href="#section-schedule">Programme</a></li>             
+                                    <li><a href="Le_Festival.html">Le Festival</a></li>
+                                    <li><a href="Gallerie.html">Gallerie</a></li>
+                                    <li><a href="Billeterie.html">Billeterie</a>
+                                    <li><a href="partenaire.html">Partenaires</a></li>
+                                    <li><a href="Infos_Pratiques.html">Info Pratique</a>
                                         <ul>
-                                            <li><a href="index.html">Rockfest</a></li>
-                                            <li><a href="02_djfest-index.html">DJFest</a></li>
-                                            <li><a href="03_electrofest-index.html">Electrofest</a></li>
+                                            <li><a href="Infos_Pratiques.html">Informations</a></li>
+                                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf8aZWylzZezZ5dkSh5cyjJ6958uReG1B7hX-3a44cwpdyQkg/viewform">Devenir bénévoles</a></li>
+                                            <li><a href="Contact.html">Nous contacter</a></li>
                                         </ul>
-                                    </li>                    
-                                    <li><a href="03_electrofest-index.html#section-artists">Artists</a></li>                  
-                                    <li><a href="03_electrofest-index.html#section-schedule">Schedule</a></li>             
-                                    <li><a href="03_electrofest-index.html#section-tickets">Tickets</a></li>
-                                    <li><a href="03_electrofest-index.html#section-gallery">Gallery</a></li>
-                                    <li><a href="03_electrofest-index.html">Pages</a>
-                                        <ul>
-                                            <li><a href="03_electrofest-blog.html">Blog</a></li>
-                                            <li><a href="03_electrofest-contact.html">Contact</a></li>
-                                            <li><a href="03_electrofest-gallery.html">Gallery</a></li>
-                                        </ul>
-                                    </li>
-                                    
+                                    </li>                                    
                                 </ul>
                             </div>
                             <div class="de-flex-col">
                                 <div class="menu_side_area">
-                                    <a href="#section-tickets" class="btn-main"><i class="fa fa-sign-in"></i><span>Buy Ticket</span></a>
+                                    <a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=1078500&widget_key=E1078500&locale=fr_FR&color_primary=0032FA&code=4132&width_auto=1&neo=1" class="btn-main"><i class="fa fa-sign-in"></i><span>Acheter un billet</span></a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>
@@ -118,48 +113,47 @@
                             <form name="contactForm" id='contact_form' class="form-border" method="post">
                                 <div class="row g-custom-x">
                                     <div class="col-md-12">
-                                        <h3>Send Us Message</h3>
+                                        <h3>Envoyez nous un message !</h3>
                                     </div>
                                     <div class="col-md-6">
-                                        <div id='name_error' class='error'>Please enter your name.</div>
+                                        <div id='name_error' class='error'>Entrez votre nom.</div>
                                         <div>
                                             <input type='text' name='Name' id='name' class="form-control" placeholder="Your Name" required>
                                         </div>
 
-                                        <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                                        <div id='email_error' class='error'>Entrez une adresse mail valide.</div>
                                         <div>
                                             <input type='email' name='Email' id='email' class="form-control" placeholder="Your Email" required>
                                         </div>
 
-                                        <div id='phone_error' class='error'>Please enter your phone number.</div>
+                                        <div id='phone_error' class='error'>Entrez votre numéro de téléphone</div>
                                         <div>
                                             <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div id='message_error' class='error'>Please enter your message.</div>
+                                        <div id='message_error' class='error'>Entrez votre message</div>
                                         <div>
                                             <textarea name='message' id='message' class="form-control" placeholder="Your Message" required></textarea>
                                         </div>
                                     </div>
 
                                     <div class="col-md-12">
-                                        <div class="g-recaptcha" data-sitekey="copy-your-site-key-here"></div>
                                         <p id='submit' class="mt20">
                                             <input type='submit' id='send_message' value='Submit Form' class="btn btn-main">
                                         </p>
-                                        <div id='mail_success' class='success'>Your message has been sent successfully.</div>
-                                        <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+                                        <div id='mail_success' class='success'>Votre message a été envoyé</div>
+                                        <div id='mail_fail' class='error'>Une erreur est survenu lors de l'envoi du message</div>
                                         
                                     </div>
                                 </div>
                             </form>
 
                             <div id="success_message" class='success'>
-                                Your message has been sent successfully. Refresh this page if you want to send more messages.
+                                Votre message a été envoyé
                             </div>
                             <div id="error_message" class='error'>
-                                Sorry there was an error sending your form.
+                                Une erreur est survenu lors de l'envoi du message
                             </div>
 
                         </div>
@@ -167,14 +161,11 @@
                         <div id="sidebar" class="col-md-4">
 
                             <div class="widget widget_text">
-                                <h3>Contact Info</h3>
+                                <h3>Informations de contact</h3>
                                 <address>
-                                    <span><strong>Address:</strong>100 S Main St, Los Angeles, CA</span>
-                                    <span><strong>Phone:</strong>(208) 333 9296</span>
-                                    <span><strong>Fax:</strong>(208) 333 9298</span>
-                                    <span><strong>Email:</strong><a href="mailto:contact@example.com">contact@example.com</a></span>
-                                    <span><strong>Web:</strong><a href="#test">http://example.com</a></span>
-                                    <span><strong>Open</strong>Sunday - Friday 08:00 - 18:00</span>
+                                    <span><strong>Téléphone : </strong> 06 12 34 56 78</span>
+                                    <span><strong>Adresse mail :</strong><a href="mailto:contact@fest-influenceurs.fr">contact@fest-influenceurs.fr</a></span>
+
                                 </address>
                             </div>
                         </div>
