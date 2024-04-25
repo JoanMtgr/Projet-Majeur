@@ -194,7 +194,7 @@ header.header-bg {
 }
 
 header.transparent {
-    background: none;
+    background: #FFFFFF;
 }
 
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
