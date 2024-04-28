@@ -6,10 +6,10 @@
       messageColor: '#fff',
       linkColor: '#fad04c',
       buttonColor: '#fad04c',
-      messageText: "<b>Do you hungry ?</b> 🍪 Pursuing navigation on this site, you accept the use of cookies.",
-      linkText: "Learn more",
+      messageText: "<b>Do you hungry ?</b> 🍪 En continuant votre navigation sur ce site, vous acceptez l'utilisation de cookies.",
+      linkText: "En savoir plus",
       linkUrl: "https://www.cookiesandyou.com",
-      buttonText: "I accept",
+      buttonText: "J'accepte",
     }, options);
     
     const banner = $("<div id='cookit'></div>");

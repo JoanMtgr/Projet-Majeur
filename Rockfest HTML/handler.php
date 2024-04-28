@@ -19,10 +19,8 @@ $validator->field('Email')->isEmail();
 $validator->field('Message')->maxLength(6000);
 
 
-$pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('copy-your-secret-key-here');
 
 
-$pp->sendEmailTo('designesia@gmail.com'); // ← Your email here
+$pp->sendEmailTo('joan.montangerandpro@gmail.com'); // ← Your email here
 
 echo $pp->process($_POST);
