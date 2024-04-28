@@ -1,6 +1,0 @@
-Rockfest 1.2
-New added Rockfest Homepage Video (01_rockfest-index-video.html)
-
-Rockfest 1.1
-New smooth mouse scroll
-New stylish scrollbar
