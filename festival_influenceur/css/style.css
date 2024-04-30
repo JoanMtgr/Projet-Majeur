@@ -3258,7 +3258,7 @@ hr {
     padding: 8px;
     margin-bottom: 30px;
     border: none;
-    border: solid 2px #eeeeee;
+    border: solid 2px #000000;
     background: none;
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -5153,7 +5153,7 @@ i.font60 {
 }
 
 .dark-scheme .pricing-s1 .top h2{
-    color: #ffffff;
+    color: #000000;
 }
 
 .pricing-s1 .top p.plan-tagline {
@@ -15728,6 +15728,14 @@ img {
         margin-bottom: 80px;
     }
 
+}
+
+/* custom */
+.contact-outline{
+    outline-width: 1px;
+    outline-color: rgba(0, 0, 0, .2);
+    outline-style: solid;
+    outline-offset: 0;
 }
 
 /* -------------------------------------------------- 
