@@ -1175,7 +1175,7 @@ header.header-mobile {
     background: #fff;
     top: 0;
     height: 90px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 header.header-mobile .container{
@@ -5705,12 +5705,13 @@ i.font60 {
 
 .social-icons {
     display: inline-block;
+    width: 100%;
 }
 
 .social-icons i {
     text-shadow: none;
     color: #fff;
-    padding: 12px 10px 8px 10px;
+    padding: 12px 17.5% 30px 14.7%;
     width: 34px;
     height: 34px;
     text-align: center;
@@ -5718,7 +5719,7 @@ i.font60 {
     border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
-    margin: 0 3px 0 3px;
+    margin: 0;
 }
 
 .social-icons i.fa-google-plus {
@@ -15906,8 +15907,8 @@ img {
     }
 
     .de_tab.tab_style_4 .de_nav li {
-        min-width: 33.3%;
-        width: 33.3%;
+        min-width: 50%;
+        width: 50%;
         border: none;
     }
 
@@ -15980,6 +15981,14 @@ img {
     /* -------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
+
+    .extra-padding-top{
+        padding-top: 20px;
+    }
+
+    .size-modif{
+        font: size 48px;
+    }
 
     .pf_full_width .item {
         float: left;
